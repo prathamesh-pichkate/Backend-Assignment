@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
-    "test": "mocha --exit"
+    "test": "mocha tests --exit"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/prathamesh-pichkate/Backend-Assignment#readme",
   "dependencies": {
+    "@google-cloud/translate": "^8.5.0",
     "axios": "^1.7.9",
+    "chai-http": "^5.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mongodb": "^6.13.0",
